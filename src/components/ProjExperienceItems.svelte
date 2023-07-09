@@ -22,6 +22,17 @@
       ],
     },
     {
+      company: "Personal CMS Project",
+      location: "Los Angeles, CA",
+      date: "May 2023",
+      title: "Chard Hall of Records",
+      bulletPoints: [
+        "Experimented with Astro and Sanity.io CMS",
+        "Was my first time working with a CMS",
+      ],
+      link: "https://github.com/1peterholmes1/ChardHallofRecords",
+    },
+    {
       company: "Personal Firebase Project",
       location: "Los Angeles, CA",
       date: "March 2023 - May 2023",
@@ -41,6 +52,16 @@
       bulletPoints: [
         "Wrote in Java using Apache and MySQL",
         "Experimented with using Firebase as a backend",
+      ],
+    },
+    {
+      company: "Experimental Vehicle Team",
+      location: "St Thomas Academy, MN",
+      date: "2018 - 2019",
+      title: "Team Captain, Electronics Lead",
+      bulletPoints: [
+        "Designed and built solar-powered car and all-terrain vehicles. Specialist in electronics and CAD",
+        "Won 2017 World Championship in London, 2-time North American Champion vehicle",
       ],
     },
   ];
