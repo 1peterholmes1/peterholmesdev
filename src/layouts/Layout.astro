@@ -19,7 +19,7 @@ import Scrollbar from '@components/Scrollbar.svelte'
 		<meta name="generator" content={Astro.generator} />
 		<script is:inline>
 			if (localStorage.getItem("theme") === null) {
-				document.documentElement.setAttribute("data-theme", "night");
+				document.documentElement.setAttribute("data-theme", "mydarktheme");
 			} else {
 				document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"))
 			}
