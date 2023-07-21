@@ -33,6 +33,17 @@
       link: "https://github.com/1peterholmes1/ChardHallofRecords",
     },
     {
+      company: "USC Student CTF Project",
+      location: "Los Angeles, CA",
+      date: "January 2022 - May 2022",
+      title: "CTF Cybersecurity Exercises",
+      bulletPoints: [
+        "Built backend in Python Flask",
+        "Wrote alert scripts to notify when losing points",
+        "Scanned for backdoors on server",
+      ],
+    },
+    {
       company: "Personal Firebase Project",
       location: "Los Angeles, CA",
       date: "March 2023 - May 2023",
@@ -45,13 +56,23 @@
       link: "https://github.com/1peterholmes1/first-bank-of-chard",
     },
     {
-      company: "USC Student Project",
+      company: "USC Student Web Project",
       location: "Los Angeles, CA",
       date: "August 2020 - December 2020",
       title: "University Messaging System",
       bulletPoints: [
         "Wrote in Java using Apache and MySQL",
         "Experimented with using Firebase as a backend",
+      ],
+    },
+    {
+      company: "USC Student Android Project",
+      location: "Los Angeles, CA",
+      date: "August 2021 - December 2021",
+      title: "Easy Team Up",
+      bulletPoints: [
+        "Worked with SQL databases and REST APIs",
+        "Built Android app in Java",
       ],
     },
     {

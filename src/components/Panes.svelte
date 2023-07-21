@@ -14,6 +14,8 @@
     navigator.clipboard.writeText("peter@peterholmes.dev");
     copybuttontext = "Copied!";
   };
+  let projarrow = true;
+  let workarrow = true;
 </script>
 
 <div
@@ -175,14 +177,50 @@
 >
   <div class="flex-1">
     <h4 class="text-2xl font-bold py-4">Project Experience</h4>
-    <div class="max-h-[38vh] md:max-h-[75vh] overflow-auto">
+    <div
+      class="max-h-[38vh] md:max-h-[75vh] relative overflow-auto"
+      id="projexpcontainer"
+      on:scroll={() => (projarrow = false)}
+    >
       <ProjExperienceItems />
+      {#if projarrow}
+        <div
+          class="absolute bottom-0 right-0 animate-bounce w-10 h-10 sm:hidden"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            class="fill-base-content"
+            ><title>chevron-down</title><path
+              d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+            /></svg
+          >
+        </div>
+      {/if}
     </div>
   </div>
   <div class="flex-1">
     <h4 class="text-2xl font-bold py-4">Work Experience</h4>
-    <div class="max-h-[38vh] md:max-h-[75vh] overflow-auto">
+    <div
+      class="max-h-[38vh] md:max-h-[75vh] overflow-auto relative"
+      id="workexpcontainer"
+      on:scroll={() => (workarrow = false)}
+    >
       <WorkExperienceItems />
+      {#if workarrow}
+        <div
+          class="absolute bottom-0 right-0 animate-bounce w-10 h-10 sm:hidden"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            class="fill-base-content"
+            ><title>chevron-down</title><path
+              d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+            /></svg
+          >
+        </div>
+      {/if}
     </div>
   </div>
 </div>
