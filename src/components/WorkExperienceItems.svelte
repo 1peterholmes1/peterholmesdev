@@ -4,7 +4,7 @@
       company: "Beck Enterprises",
       location: "St Paul, MN",
       date: "May 2023 - Present",
-      title: "Software Engineer",
+      title: "Full Stack Web Engineer",
       bulletPoints: [
         "Worked with VueJS to rebuild a brand new update to company data portal",
         "Operated with minimal oversight, resourcefully and self-sufficiently",
